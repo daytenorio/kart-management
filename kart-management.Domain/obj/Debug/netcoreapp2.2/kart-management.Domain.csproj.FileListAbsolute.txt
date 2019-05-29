@@ -1,0 +1,9 @@
+C:\Projetos\kart-management\kart-management.Domain\bin\Debug\netcoreapp2.2\kart-management.Domain.deps.json
+C:\Projetos\kart-management\kart-management.Domain\bin\Debug\netcoreapp2.2\kart-management.Domain.dll
+C:\Projetos\kart-management\kart-management.Domain\bin\Debug\netcoreapp2.2\kart-management.Domain.pdb
+C:\Projetos\kart-management\kart-management.Domain\obj\Debug\netcoreapp2.2\kart-management.Domain.csprojAssemblyReference.cache
+C:\Projetos\kart-management\kart-management.Domain\obj\Debug\netcoreapp2.2\kart-management.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\kart-management\kart-management.Domain\obj\Debug\netcoreapp2.2\kart-management.Domain.AssemblyInfoInputs.cache
+C:\Projetos\kart-management\kart-management.Domain\obj\Debug\netcoreapp2.2\kart-management.Domain.AssemblyInfo.cs
+C:\Projetos\kart-management\kart-management.Domain\obj\Debug\netcoreapp2.2\kart-management.Domain.dll
+C:\Projetos\kart-management\kart-management.Domain\obj\Debug\netcoreapp2.2\kart-management.Domain.pdb
