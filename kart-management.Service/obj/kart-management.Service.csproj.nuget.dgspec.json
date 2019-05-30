@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\kart-management\\kart-management.Service\\kart-management.Service.csproj": {}
+    "D:\\Projects\\kart-management\\kart-management.Service\\kart-management.Service.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\kart-management\\kart-management.Service\\kart-management.Service.csproj": {
+    "D:\\Projects\\kart-management\\kart-management.Service\\kart-management.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\kart-management\\kart-management.Service\\kart-management.Service.csproj",
+        "projectUniqueName": "D:\\Projects\\kart-management\\kart-management.Service\\kart-management.Service.csproj",
         "projectName": "kart-management.Service",
-        "projectPath": "C:\\Projetos\\kart-management\\kart-management.Service\\kart-management.Service.csproj",
-        "packagesPath": "C:\\Users\\Day Dilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\kart-management\\kart-management.Service\\obj\\",
+        "projectPath": "D:\\Projects\\kart-management\\kart-management.Service\\kart-management.Service.csproj",
+        "packagesPath": "C:\\Users\\ddste\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\kart-management\\kart-management.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Day Dilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ddste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,9 +1,20 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import ReactTable from "react-table";
+import "react-table/react-table.css";
+
 export class Standing extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    this.state = {
+      results: [],
+      tableHeaders:[]
+    };
+
+  }
+
+  componentWillMount(){
     axios
       .get(
         `http://kartodromogranjaviana.com.br/resultados/folha/?uid=678e125b4098c91f4896ea86f669a720&parte=prova`
@@ -12,29 +23,40 @@ export class Standing extends Component {
         const standing = document.createElement('div');
         standing.innerHTML = res.data;
 
-        let result = {};
+        const attributes = [...standing.querySelectorAll('table.points th')].map((th) => {
+          return th.innerHTML;
+        });
 
-        const format = standing.querySelectorAll('table.points th');
-        // .forEach((th) => {
-        //   // return th.innerHTML;
-        //   console.log(th.innerHTML);
-        // });
-
-        console.log(format);
-        // const header = standing
-        //   .querySelectorAll('table.points tr')
-        //   .forEach((tr) => {
-        //     tr.querySelectorAll('td').forEach((td, idx) => {
-        //       console.log(td.innerHTML, format[idx]);
-        //     });
-        //     console.log('---------------');
-        //   });
-
-        // const posts = res.data.data.children.map((obj) => obj.data);
-        //this.setState({ posts });
+        console.log(attributes);
+        const tableHeaders = attributes.map((a)=>{
+          return {
+            Header: a,
+            accessor: a.replace('.','')
+          } 
+        })
+        const results = [...standing
+          .querySelectorAll('table.points tr')]
+          .map((tr) => {
+            let result = {};
+            tr.querySelectorAll('td').forEach((td, idx) => {
+              result[`${attributes[idx].replace('.','')}`] = td.innerHTML;
+            });
+            return result;
+          });
+          console.log(results)
+        this.setState({ results,tableHeaders });
       });
   }
+  
   render() {
-    return <h1>Day</h1>;
+    const { results,tableHeaders } = this.state;
+    return (
+        <ReactTable
+          data={results}
+          columns={tableHeaders}
+          defaultPageSize={10}
+          className="-striped -highlight"
+        />
+    );
   }
 }

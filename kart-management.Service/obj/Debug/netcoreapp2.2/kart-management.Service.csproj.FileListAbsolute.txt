@@ -7,3 +7,12 @@ C:\Projetos\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart
 C:\Projetos\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart-management.Service.AssemblyInfo.cs
 C:\Projetos\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart-management.Service.dll
 C:\Projetos\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart-management.Service.pdb
+D:\Projects\kart-management\kart-management.Service\bin\Debug\netcoreapp2.2\kart-management.Service.deps.json
+D:\Projects\kart-management\kart-management.Service\bin\Debug\netcoreapp2.2\kart-management.Service.dll
+D:\Projects\kart-management\kart-management.Service\bin\Debug\netcoreapp2.2\kart-management.Service.pdb
+D:\Projects\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart-management.Service.csprojAssemblyReference.cache
+D:\Projects\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart-management.Service.csproj.CoreCompileInputs.cache
+D:\Projects\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart-management.Service.AssemblyInfoInputs.cache
+D:\Projects\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart-management.Service.AssemblyInfo.cs
+D:\Projects\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart-management.Service.dll
+D:\Projects\kart-management\kart-management.Service\obj\Debug\netcoreapp2.2\kart-management.Service.pdb
